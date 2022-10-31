@@ -1,0 +1,15 @@
+ManifestFileVersion: 0
+CRC: 393742572
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: sphere.ab
+      Dependencies:
+        Dependency_0: material.ab
+    Info_1:
+      Name: cube.ab
+      Dependencies:
+        Dependency_0: material.ab
+    Info_2:
+      Name: material.ab
+      Dependencies: {}
