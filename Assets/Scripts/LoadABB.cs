@@ -13,6 +13,7 @@ public class LoadABB : MonoBehaviour
     string path2 = "AssetBundles/material.ab";
     void Start()
     {
+        Fun1();
         //StartCoroutine(Fun2());
         //Fun3();
         //StartCoroutine(Fun4());
