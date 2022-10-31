@@ -1,0 +1,26 @@
+a = 100
+b = 'hello'
+c = false
+d = {
+    name = 'xx',
+    age = 25,
+    Speak = function()
+        print("我吃饭啦")
+    end,
+    Talk = function(self, a, b) -- 默认第一个参数是自己
+        print(a + b)
+    end,
+    1,2,3,true,"我真牛逼"
+}
+function d:Talk2(a, b)
+    print(a + b)
+end
+
+function add()
+    print("add")
+end
+
+function add2(a, b)
+    print(a + b)
+    return "有返回值哦~", "我是第二个返回值", "我是第三个返回值"
+end

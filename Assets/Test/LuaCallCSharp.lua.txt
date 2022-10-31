@@ -1,0 +1,13 @@
+--生成一个游戏物体
+--CS + 命名空间 + 类名
+--CS.UnityEngine.GameObject("I am made from Lua");
+
+--节约性能
+local gameObject = CS.UnityEngine.GameObject
+
+local obj = gameObject.Find("HelloWorld1")
+obj.name = "HelloWorld by Lua"
+
+--成员变量方法统一采用冒号，因为默认传入自己
+local image = obj:GetComponent("Image")
+image.enabled = false
